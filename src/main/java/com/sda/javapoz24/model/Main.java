@@ -26,9 +26,11 @@ public class Main {
         do {
             System.out.println("Podaj komendę [insert,list,delete]");
             command = scanner.nextLine();
-            if (command.startsWith("insert")) {
-                // insert Paweł Gaweł 20 true MALE
-                // 0      1     2     3  4    5
+
+            //todo dodac metode update
+
+            if (command.startsWith("insert")) {// insert Paweł Gaweł 20 true MALE
+                                                  // 0     1     2     3  4    5
                 String[] words = command.split(" ");
                 Student student = Student.builder()
                         .firstName(words[1])
