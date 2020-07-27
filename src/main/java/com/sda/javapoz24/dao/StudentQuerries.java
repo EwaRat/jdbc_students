@@ -28,5 +28,9 @@ public interface StudentQuerries {
     //uzytkownik wpisuje identyfikator obiektu i jego dane
     // nastepnie program tworzy zapytanie modyikujace tresc obiektu
 
+    //public static final String UPDATE_STUDENT=
+
+
+
 }
 
